@@ -1,0 +1,748 @@
+body {
+
+    background-image: url('G:/Developer/09 october 2019 skyrocket/assets/images/body-image.jpg');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sky-rocket-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.icon-social-media {
+    content: "";
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top a {
+    text-decoration: none;
+}
+
+.top ul {
+    list-style-type: none;
+}
+
+.top-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-left a {
+    color: white;
+}
+
+.top-left li a i {
+    color: green;
+    padding-right: 5px;
+}
+
+.top-right li a {
+    color: white;
+    position: relative;
+}
+
+.top-left li+li {
+    margin-left: 25px;
+}
+
+.top-right li+li {
+    margin-left: 5px;
+}
+
+header nav {
+    background: transparent;
+}
+
+header nav .btn-toggle {
+    background: gray;
+    margin-left: auto;
+    text-align: center;
+    width: max-content;
+}
+
+header .navbar-nav li a {
+    color: red;
+}
+
+header .navbar-nav {
+    padding-left: 15px !important;
+    text-align: center;
+}
+
+/* hero-section-styling */
+.hero-section {
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(45%, -50%);
+    width: max-content;
+}
+
+.hero-content h1 {
+    color: #fda426;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero-content h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.hero-content h2 span {
+    color: #fda426;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.btn-Learn-More {
+    background: -moz-linear-gradient(0deg, rgb(253, 164, 38) 0%, rgb(251, 116, 58) 100%);
+    background: -webkit-linear-gradient(0deg, rgb(253, 164, 38) 0%, rgb(251, 116, 58) 100%);
+    background: -ms-linear-gradient(0deg, rgb(253, 164, 38) 0%, rgb(251, 116, 58) 100%);
+    width: 174px;
+    height: 46px;
+    border-radius: 22px;
+    font-size: 18px;
+    color: white;
+}
+
+.hero-content a button {
+    position: relative;
+    top: 30px;
+}
+
+/* client-section */
+.clients-section {
+    padding-top: 0px;
+    position: relative;
+}
+
+.clients-bg {
+    background-color: white;
+}
+
+.carousel-box img {
+    width: auto !important;
+    height: auto;
+}
+
+.carousel-box {
+    padding-bottom: 80px;
+}
+
+.client-video {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.client-video #video-image {
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.icon-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.clients-bg #video-link {
+    position: absolute;
+    left: 0;
+    height: 408px;
+    width: 100%;
+    opacity: 0;
+}
+
+.markets-video #video-link-markets {
+    position: absolute;
+    left: 0;
+    height: 408px;
+    width: 100%;
+    opacity: 0;
+}
+
+.play-icon {
+    content: "";
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    opacity: 0.6;
+
+}
+
+.icon i {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.icon-2 i {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+/* competitors-section */
+
+.competitors {
+    background-image: url('G:/Developer/09 october 2019 skyrocket/assets/images/competitors.jpg');
+    background-repeat: no-repeat;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.competitors-content h2 {
+    color: white;
+}
+
+.competitors-content h3 {
+    color: #fda426;
+}
+
+/* ////our vision section */
+
+.vision-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 110px;
+    padding-right: 110px;
+    background-color: white;
+    background-image: url('G:/Developer/09 october 2019 skyrocket/assets/images/vision-plane.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 120px;
+}
+
+.vision-content p {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.suported-market {
+    padding-top: 90px;
+}
+
+.btn-golden {
+    font-size: 18px;
+    color: rgb(253, 164, 38);
+    font-weight: bold;
+    border-width: 0.692px;
+    border-color: rgb(253, 164, 38);
+    border-style: solid;
+    line-height: 1.385;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 45px;
+    border-radius: 22px;
+    background: transparent;
+}
+
+.suported-market .carousel-markets-style {
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+
+.carousel-markets-style img {
+    width: auto !important;
+    height: auto;
+}
+
+.service-box {
+    border-width: 0.692px;
+    border-color: rgb(206, 206, 206);
+    border-style: solid;
+    width: 205px;
+    min-height: 201px;
+    position: relative;
+    transition: all 0.5s linear;
+}
+
+.service-background {
+    width: 205px;
+    min-height: 201px;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s linear;
+}
+
+.service-box p {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    color: black;
+    transition: all 0.4s linear;
+}
+
+.service-image {
+    transform: translate(0, 20%);
+    text-align: center;
+}
+
+.service-image h4 {
+    padding-top: 15px;
+}
+
+.service-image img {
+    border-bottom: solid 2px rgb(253, 164, 38);
+    padding-bottom: 15px;
+}
+
+.service-box:hover .service-background {
+    background-color: rgba(253, 164, 38, 0.8);
+    -webkit-box-shadow: -1px 0px 14px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 14px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 0px 14px 1px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.service-box:hover .service-image img {
+    color: white;
+    cursor: pointer;
+}
+
+
+.service-box:hover h4 {
+    color: white;
+    cursor: pointer;
+}
+
+.service-box:hover p {
+    color: white;
+    position: relative;
+    z-index: 555;
+    cursor: pointer;
+}
+
+/* calendar */
+
+.e-commerce {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.e-commerce-calendar {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-box-shadow: -1px 0px 14px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 14px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 0px 14px 1px rgba(0, 0, 0, 0.75);
+}
+
+.e-commerce-calendar h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.e-commerce-calendar h4 {
+    color: #c21a20;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.e-commerce-calendar input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-width: 0.692px;
+    border-color: rgb(168, 167, 167);
+    border-style: solid;
+    padding: 8px;
+}
+
+.e-commerce-calendar .btn-send {
+    padding: 8px;
+    background-image: -moz-linear-gradient(0deg, rgb(253, 164, 38) 0%, rgb(251, 116, 58) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(253, 164, 38) 0%, rgb(251, 116, 58) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(253, 164, 38) 0%, rgb(251, 116, 58) 100%);
+    border-radius: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.972;
+    color: white;
+}
+
+
+.unlock-calender {
+    background-image: url('G:/Developer/09 october 2019 skyrocket/assets/images/calender.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.bg-unlock {
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.lock-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* counter */
+.counter-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url('G:/Developer/09 october 2019 skyrocket/assets/images/counter.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.counters h1,
+.counters h6 {
+    text-align: center;
+
+}
+
+.counters h1 {
+    color: white;
+}
+
+.counters h6 {
+    color: gray;
+}
+
+.who-we-are-section {
+    background-image: url('G:/Developer/09 october 2019 skyrocket/assets/images/bg-texture.png');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    text-align: left;
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 90px;
+}
+
+/* owl-carousel-video-section */
+.other-people-say {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+.clients-bg .video-link-1 {
+    position: absolute;
+    left: 0;
+    height: 230px;
+    width: 100%;
+    display: none;
+    top: 45px;
+}
+
+.play-icon-v1 {
+    content: "";
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.play-icon-v1:hover {
+    background-color: rgb(194, 7, 7);
+    opacity: 1;
+}
+
+.icon-v1 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.icon-v1 i {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.clients-bg .video-image-1 {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+    border: solid 4px #eeeeee;
+    border-radius: 5px;
+}
+
+.other-people-say button.owl-prev {
+    position: absolute;
+    top: 25%;
+    left: -35px;
+    transform: translate(0, 25%);
+}
+
+.other-people-say button.owl-next {
+    position: absolute;
+    top: 25%;
+    right: -35px;
+    transform: translate(0, 25%);
+}
+
+.other-people-say button span {
+    font-size: 50px;
+    color: #bfbebe;
+    width: 50px;
+}
+
+/* professional-bg */
+
+.profesional-bg {
+    padding: 104px;
+    background-image: url('G:/Developer/09 october 2019 skyrocket/assets/images/profesional.jpg');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.professional-content h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.professional-content span {
+    font-size: 35px;
+    color: rgb(253, 164, 38);
+}
+
+/* way to sucess */
+
+.way-to-sucess {
+    background-image: url('G:/Developer/09 october 2019 skyrocket/assets/images/sucess.jpg');
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 104px;
+}
+
+.sucess-row2 {
+    padding-top: 70px;
+    text-align: right;
+}
+
+/* contact us section */
+
+.contact-us-section {
+    padding-left: 104px;
+    padding-right: 104px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.contact-us-section h3 {
+    padding-bottom: 25px;
+}
+
+.contact-us-form input {
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+.contact-us-form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px gray;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+.contact-us-content ul {
+    list-style-type: none;
+}
+
+.contact-us-content ul li {
+    padding-bottom: 15px;
+}
+
+.contact-us-content ul li i {
+    padding-right: 25px;
+}
+
+.contact-us-content ul li i.fa-whatsapp {
+    padding: 10px;
+    padding-left: 12px;
+    margin-right: 25px;
+    color: green;
+    border: solid 1px green;
+    border-radius: 50%;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    height: 38px;
+    width: 38px;
+}
+
+.contact-us-content ul li i.fa-envelope {
+    padding: 10px;
+    margin-right: 25px;
+    color: red;
+    border: solid 1px red;
+    border-radius: 50%;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.contact-us-content ul li:hover i.fa-whatsapp {
+    color: rgb(155, 233, 155);
+    border: solid 1px rgb(155, 233, 155);
+}
+
+.contact-us-content ul li:hover i.fa-envelope {
+    color: rgb(250, 178, 178);
+    border: solid 1px rgb(250, 178, 178);
+}
+
+.subscribe-section {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 104px;
+    padding-right: 104px;
+}
+
+.subscribe-section h4 {
+    padding-bottom: 15px;
+}
+
+.subscribe-section input {
+    width: 100%;
+    margin-top: 10px;
+    border: solid 2px #febc60;
+    border-radius: 35px;
+    padding: 10px;
+    position: relative;
+}
+
+.subscribe-section button {
+    position: absolute;
+    top: 11px;
+    right: 17px;
+    height: 45px;
+    border-radius: 42px;
+    border: none;
+    background-image: -moz-linear-gradient(0deg, rgb(253, 164, 38) 0%, rgb(251, 116, 58) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(253, 164, 38) 0%, rgb(251, 116, 58) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(253, 164, 38) 0%, rgb(251, 116, 58) 100%);
+    width: 165px;
+    color: white;
+}
+
+/* footer */
+
+.footer {
+    padding-left: 104px;
+    padding-right: 104px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #0c0c0c;
+}
+
+.footer .list-col {
+    list-style-type: none;
+
+}
+
+.footer .affiliates {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul li a {
+    text-decoration: none;
+}
+
+.footer ul li a {
+    color: white;
+}
+
+.footer .follow-us {
+    display: inline-flex;
+    align-items: center;
+    padding-top: 14px;
+}
+
+.footer .follow-us ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+.footer .font-icons {
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer .font-icons li {
+    padding-right: 10px;
+}

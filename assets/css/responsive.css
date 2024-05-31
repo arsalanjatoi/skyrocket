@@ -1,0 +1,13 @@
+@media only screen and (max-width:991px) {
+    .top-left {
+        display: none;
+    }
+
+    .top-right {
+        display: none;
+    }
+
+    .top .logo {
+        width: max-content;
+    }
+}
